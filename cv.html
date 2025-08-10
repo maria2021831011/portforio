@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria Tasnia - CV</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      max-width: 1200px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .left, .center, .right {
+      padding: 25px;
+    }
+    .left {
+      background: #2c3e50;
+      color: #ecf0f1;
+    }
+    .left img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      display: block;
+      border: 3px solid white;
+      object-fit: cover;
+    }
+    .left h1 {
+      font-size: 22px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    .left p {
+      font-size: 14px;
+      color: #bdc3c7;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .left h3 {
+      color: white;
+      margin: 20px 0 10px;
+      font-size: 16px;
+      border-bottom: 1px solid #34495e;
+      padding-bottom: 5px;
+    }
+    .left ul {
+      list-style: none;
+    }
+    .left li {
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    .left a {
+      color: #3498db;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .skill {
+      background: #e67e22;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+    .center h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .center section {
+      margin-bottom: 20px;
+    }
+    .center p {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .job, .project {
+      margin-bottom: 15px;
+    }
+    .job-title, .project-title {
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 3px;
+    }
+    .job-date, .project-date {
+      color: #7f8c8d;
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+    .right {
+      background: #34495e;
+      color: #ecf0f1;
+    }
+    .right h3 {
+      margin: 20px 0 10px;
+      font-size: 16px;
+      color: #f39c12;
+    }
+    .right ul {
+      padding-left: 15px;
+    }
+    .right li {
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #7f8c8d;
+      padding: 15px;
+    }
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+      .right ul {
+        padding-left: 20px;
+      }
+    }
+    @media (max-width: 500px) {
+      .left, .center, .right {
+        padding: 20px;
+      }
+      .left img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="left">
+      <img src="WhatsApp Image 2025-08-10 at 17.52.50_25350df8.jpg" alt="Maria Tasnia">
+      <h1>Maria Tasnia</h1>
+      <p>Software Engineering Student</p>
+
+      <h3>Contact</h3>
+      <ul>
+        <li>📧 <a href="mailto:ritukhan534@gmail.com">ritukhan534@gmail.com</a></li>
+        <li>📱 <a href="tel:+8801310388215">+8801310388215</a></li>
+        <li>💻 <a href="https://github.com/maria2021831011">github.com/maria2021831011</a></li>
+      </ul>
+
+      <h3>Skills</h3>
+      <div class="skills">
+        <span class="skill">Java</span>
+        <span class="skill">Android</span>
+        <span class="skill">Firebase</span>
+        <span class="skill">HTML/CSS</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">Git</span>
+        <span class="skill">Figma</span>
+        <span class="skill">C/C++</span>
+      </div>
+    </div>
+
+    
+    <div class="center">
+      <section>
+        <h2>About Me</h2>
+        <p>Software Engineering student passionate about mobile app development. Experienced in building Android applications using Java and Firebase. Strong problem-solving skills and eager to learn new technologies.</p>
+      </section>
+
+      <section>
+        
+        <h2>Experience</h2>
+        <div class="job">
+          <div class="job-title">UIHP Business Project – Team Member</div>
+          <div class="job-date">2025</div>
+          <p>Collaborating on planning, content creation, and promotion for student-led business initiative.</p>
+        </div>
+          <div class="job">
+          <div class="job-title">Math Club President</div>
+          <div class="job-date">College</div>
+          <p>Organized competitions and workshops, promoted math Olympiad participation.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="job">
+          <div class="job-title">BSc in Software Engineering</div>
+          <div class="job-date">2023 - Present</div>
+          <p>Shahjalal University of Science and Technology</p>
+        </div>
+        <div class="job">
+          <div class="job-title">HSC (Science)</div>
+          <div class="job-date">2019 - 2021</div>
+          <p>Shaheed Bir Uttam Lt. Anwar Girls' College</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="project-title">Go Get - Donation App</div>
+          <p>Android app with Firebase integration for donations, featuring chat and map functionality.</p>
+        </div>
+        <div class="project">
+          <div class="project-title">Hospital Management System</div>
+          <p>Android app handling appointments, approvals, and prescriptions for doctors and patients.</p>
+        </div>
+        <div class="project">
+          <div class="project-title">Fire Alarm System</div>
+          <p>Prototype detection system using sensors for dormitory safety.</p>
+        </div>
+      </section>
+    </div>
+
+   
+    <div class="right">
+      <h3>Languages</h3>
+      <ul>
+        <li>Bengali (Intermediate)</li>
+        <li>English (Fluent)</li>
+        <li>Hindi (Intermediate)</li>
+      </ul>
+
+      <h3>Certifications</h3>
+      <ul>
+        <li>Office Application Course</li>
+        <li>Board Scholarship</li>
+        <li>Online Courses</li>
+      </ul>
+
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Team Leadership</li>
+        <li>Problem Solving</li>
+        <li>Time Management</li>
+        <li>Adaptability</li>
+      </ul>
+
+      <h3>Achievements</h3>
+      <ul>
+        <li>Math Olympiad Participant</li>
+        <li>Academic Scholarship</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Maria Tasnia | Portfolio
+  </div>
+
+</body>
+</html>
